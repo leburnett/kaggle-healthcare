@@ -1,0 +1,16 @@
+[workspace]
+authors = ["leburnett <leburnett3@gmail.com>"]
+channels = ["conda-forge"]
+name = "kaggle-healthcare"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.12.*"
+pandas = ">=3.1.0,<4"
+numpy = ">=2.5.4,<3"
+matplotlib = ">=3.11.2,<4"
+scikit-learn = ">=1.9.1,<2"
+ipykernel = ">=7.4.0,<8"
