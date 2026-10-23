@@ -3,3 +3,4 @@
 !.pixi/config.toml
 data/
 example-notebooks/
+.DS_Store
